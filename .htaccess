@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^drupalstl.org
+RewriteRule (.*) https://www.drupalstl.org/$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ https://www.drupalstl.org/$1 [R=301,L]
