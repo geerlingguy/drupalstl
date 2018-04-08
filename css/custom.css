@@ -34,3 +34,8 @@ h2.section {
 .lead {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
+
+.container img {
+  max-width: 100%;
+  height: auto;
+}
